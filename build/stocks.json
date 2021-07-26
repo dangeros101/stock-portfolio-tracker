@@ -1,0 +1,163 @@
+{
+    "stocks": [
+        {
+            "name": "Apple Inc.",
+            "symbol": "AAPL",
+            "price": 130,  
+            "dividend": 0.82,
+            "sharesOutstanding": 17591398713 
+        },
+
+        {
+            "name": "Microsoft Corporation",
+            "symbol": "MSFT",
+            "price": 257,
+            "dividend": 2.24,
+            "sharesOutstanding": 7548965609 
+        },
+
+        {
+            "name": "Amazon.com",
+            "symbol": "AMZN",
+            "price": 3390,
+            "dividend": 0,
+            "sharesOutstanding": 503915827
+        },
+
+        {
+            "name": "Alphabet Inc.",
+            "symbol": "GOOGL",
+            "price": 2241,
+            "dividend": 0,
+            "sharesOutstanding": 673154489   
+        },
+
+        {
+            "name": "Facebook Inc.",
+            "symbol": "FB",
+            "price": 311,
+            "dividend": 0,
+            "sharesOutstanding": 2844088920
+        },
+
+        {
+            "name": "Tesla Inc.",
+            "symbol": "TSLA",
+            "price": 702,
+            "dividend": 0,
+            "sharesOutstanding": 959046789
+        },
+
+        {
+            "name": "JP Morgan Chase & Co.",
+            "symbol": "JPM",
+            "price": 156,
+            "dividend": 3.60,
+            "sharesOutstanding": 3030034284
+        },
+
+        {
+            "name": "Visa Inc.",
+            "symbol": "V",
+            "price": 221,
+            "dividend": 1.28,
+            "sharesOutstanding": 2135148063
+        },
+
+        {
+            "name": "Johnson & Johnson",
+            "symbol": "JNJ",
+            "price": 162,
+            "dividend": 4.04,
+            "sharesOutstanding": 2627668674
+        },
+
+        {
+            "name": "Walmart Inc.",
+            "symbol": "WMT",
+            "price": 140,
+            "dividend": 2.20,
+            "sharesOutstanding": 2814051391
+        },
+        
+        {
+            "name": "Mastercard Inc.",
+            "symbol": "MA",
+            "price": 380,
+            "dividend": 1.76,
+            "sharesOutstanding": 993453831
+        },
+
+        {
+            "name": "NVIDIA Corporation",
+            "symbol": "NVDA",
+            "price": 601,
+            "dividend": 0.64,
+            "sharesOutstanding": 619627174
+        },
+
+        {
+            "name": "UnitedHealth Group Inc.",
+            "symbol": "UNH",
+            "price": 378,
+            "dividend": 5,
+            "sharesOutstanding": 944669184
+        },
+        
+        {
+            "name": "Bank of America Corporation",
+            "symbol": "BAC",
+            "price": 40,
+            "dividend": 0.72,
+            "sharesOutstanding": 8635879804
+        },
+
+        {
+            "name": "Home Depot Inc.",
+            "symbol": "HD",
+            "price": 320,
+            "dividend": 6.60,
+            "sharesOutstanding": 1075492416
+        },
+
+        {
+            "name": "Walt Disney Company",
+            "symbol": "DIS",
+            "price": 186,
+            "dividend": 0,
+            "sharesOutstanding": 1814385545
+        },
+
+        {
+            "name": "Procter & Gamble Company",
+            "symbol": "PG",
+            "price": 137,
+            "dividend": 3.16,
+            "sharesOutstanding": 2456724275
+        },
+
+        {
+            "name": "PayPal Holdings Inc.",
+            "symbol": "PYPL",
+            "price": 268,
+            "dividend": 0,
+            "sharesOutstanding": 1173054885
+        },
+
+        {
+            "name": "Intel Corporation",
+            "symbol": "INTC",
+            "price": 65,
+            "dividend": 1.39,
+            "sharesOutstanding": 4056996085
+        },
+
+        {
+            "name": "Netflix Inc.",
+            "symbol": "NFLX",
+            "price": 555,
+            "dividend": 0,
+            "sharesOutstanding": 443102743
+        }
+    ]
+}
