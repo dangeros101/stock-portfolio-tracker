@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Portfolio from './components/Portfolio'
+import AddHolding from './components/AddHolding'
+import Footer from './components/Footer'
+import Totals from './components/Totals'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <h1>Stock Portfolio Tracker</h1>
       </header>
-    </div>
+      <Totals />
+      <div className="container">
+        <Portfolio />
+        <AddHolding />
+      </div>
+      <Footer />
+    </>
   );
 }
 
