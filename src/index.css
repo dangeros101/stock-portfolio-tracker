@@ -247,6 +247,7 @@ header {
 
 footer {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   height: 5rem;
   width: 100%;
@@ -261,6 +262,20 @@ footer small a {
 }
 
 /* Media Queries */
+
+@media only screen and (min-width: 1400px) {
+  .portfolio, .addHolding {
+    width: 65%;
+  }
+
+  .addHolding {
+    transform: translateX(100rem);
+  }
+
+  .visually-active {
+    transform: translateX(15%);
+  }
+}
 
 @media only screen and (max-width: 843px) {
   .addHolding form .calculateTotal {
