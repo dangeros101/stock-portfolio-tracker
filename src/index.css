@@ -247,7 +247,6 @@ header {
 
 footer {
   display: flex;
-  flex-shrink: 0;
   align-items: center;
   height: 5rem;
   width: 100%;
@@ -269,11 +268,37 @@ footer small a {
   }
 
   .addHolding {
-    transform: translateX(100rem);
+    transform: translateX(200rem);
   }
 
   .visually-active {
     transform: translateX(15%);
+  }
+
+  .totals {
+    margin-top: 5%;
+    font-size: 150%;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 1100px) {
+  .container, .totals {
+    margin-top: 10%;
+  }
+
+  .totals {
+    margin-top: 5%;
+    font-size: 150%;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
   }
 }
 

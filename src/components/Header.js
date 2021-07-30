@@ -32,7 +32,7 @@ const Header = () => {
             container.classList.add('margin-change');
         }, 20);
 
-        portfolioPage.style.transform = 'translateX(-100rem)';
+        portfolioPage.style.transform = 'translateX(-200rem)';
         portfolioPage.style.opacity = 0;
 
         autocomplete(document.querySelector('#searchInput'), arr);
